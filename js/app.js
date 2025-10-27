@@ -16,12 +16,3 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 1000);
 });
 
-const img = document.querySelector(".mobile-hero-image");
-const bigSrc = img.getAttribute("data-src");
-
-const highRes = new Image();
-highRes.src = bigSrc;
-highRes.onload = () => {
-    img.src = bigSrc;
-    img.classList.remove("blur-up");
-};
