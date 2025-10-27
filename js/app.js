@@ -4,14 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const lazyLoad = document.querySelector(".lazyLoad");
   setTimeout(() => {
     lazyLoad.innerHTML = `
-        <div class="bonus_sec registerBtn">
-         <img src="./images/gift.avif" alt="gift" width="74" height="84" loading="lazy" decoding="async"
-        class="gift__img">
-          <div>
-            <p class="bonus_sec-title">Darsga kirganalar uchun bonus:</p>
-            <p class="bonus_sec-text">Shaxsiy diagnostika <br> tayyor video darslari</p>
-          </div>
-        </div>
+     
   `;
   }, 1000);
 });
